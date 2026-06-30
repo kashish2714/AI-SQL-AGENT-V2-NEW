@@ -1,0 +1,34 @@
+question,expected_value,metric_type
+Count all records,10,scalar
+Find maximum salary,120000,scalar
+Find minimum salary,45000,scalar
+Find average salary,77500,scalar
+Find sum of salary,775000,scalar
+
+Show all records,10,rows
+Show first 5 rows,5,rows
+Show top 5 highest salaries,5,rows
+Show bottom 5 lowest salaries,5,rows
+Show all unique departments,3,rows
+
+Count employees per department,3,rows
+Find average salary per department,3,rows
+Find max salary per department,3,rows
+Find min salary per department,3,rows
+
+Filter employees with salary > 50000,7,rows
+Filter employees with salary < 80000,3,rows
+Filter employees in a department,4,rows
+
+Sort employees by salary ascending,10,rows
+Sort employees by salary descending,10,rows
+
+Find employees with salary > average salary,4,rows
+Find employees with salary < average salary,6,rows
+
+Find departments with more than 2 employees,2,rows
+Find department with highest average salary,1,rows
+Find department with lowest average salary,1,rows
+
+Count employees in dataset,1,scalar
+Count distinct departments,1,scalar
