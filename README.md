@@ -192,12 +192,6 @@ Avg Latency: 0.31 sec
 
 ---
 
-## Resume Highlights
-
-- Built an end-to-end LLM-powered Text-to-SQL analytics system using Python, Streamlit, SQLite, Groq LLM, and Pandas.
-- Implemented SQL validation to improve execution safety and prevent unsafe database operations.
-- Developed an internal evaluation framework to benchmark Text-to-SQL execution accuracy and query latency.
-- Achieved a 68–72% execution success rate on an internal SQL benchmark (26–50 queries), depending on query complexity.
 
 ---
 
